@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio | Self Introduction</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="top-bar">
+    <a class="brand" href="index.html">My Portfolio</a>
+    <button class="menu-button" type="button" aria-label="메뉴 열기" aria-expanded="false">
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+    <nav class="nav-links" aria-label="주요 메뉴">
+      <a class="active" href="index.html">소개</a>
+      <a href="activities.html">활동</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="hero-content">
+        <p class="eyebrow">Student Portfolio</p>
+        <h1>안녕하세요, 저는 성장하는 개발자입니다.</h1>
+        <p class="hero-text">
+          웹 기술을 배우며 사용자에게 편리하고 보기 좋은 서비스를 만드는 것을 좋아합니다.
+          이 포트폴리오는 자기소개와 주요 활동을 정리한 간단한 웹사이트입니다.
+        </p>
+        <div class="hero-actions">
+          <a class="button primary" href="activities.html">활동 보기</a>
+          <a class="button secondary" href="#about">자기소개</a>
+        </div>
+      </div>
+      <div class="profile-card" aria-label="프로필 요약">
+        <div class="avatar">ME</div>
+        <h2>홍길동</h2>
+        <p>Frontend Learner</p>
+        <ul>
+          <li>HTML, CSS, JavaScript</li>
+          <li>반응형 웹 디자인</li>
+          <li>문제 해결과 협업</li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="about" class="section">
+      <div class="section-heading">
+        <p class="eyebrow">About Me</p>
+        <h2>저를 소개합니다</h2>
+      </div>
+      <div class="grid two-columns">
+        <article class="card">
+          <h3>관심 분야</h3>
+          <p>
+            웹 페이지 구조를 설계하고, CSS로 보기 좋은 화면을 만들며,
+            JavaScript로 상호작용을 추가하는 과정에 흥미를 느낍니다.
+          </p>
+        </article>
+        <article class="card">
+          <h3>목표</h3>
+          <p>
+            꾸준한 프로젝트 경험을 통해 실력을 쌓고,
+            실제 사용자가 만족할 수 있는 웹 서비스를 만드는 것이 목표입니다.
+          </p>
+        </article>
+      </div>
+    </section>
+
+    <section class="section soft-section">
+      <div class="section-heading">
+        <p class="eyebrow">Skills</p>
+        <h2>기술 스택</h2>
+      </div>
+      <div class="skill-list">
+        <span>HTML</span>
+        <span>CSS</span>
+        <span>JavaScript</span>
+        <span>Responsive Design</span>
+        <span>Git</span>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>&copy; 2026 My Portfolio. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
