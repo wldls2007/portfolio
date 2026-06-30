@@ -168,15 +168,14 @@ a {
 }
 
 .avatar {
-  display: grid;
   width: 86px;
   height: 86px;
-  place-items: center;
   border-radius: 50%;
-  color: white;
-  background: linear-gradient(135deg, var(--primary), var(--accent));
-  font-size: 1.4rem;
-  font-weight: 900;
+  display: block;
+  object-fit: cover;
+  object-position: center;
+  border: 3px solid var(--surface-soft);
+  box-shadow: 0 8px 18px rgba(23, 32, 51, 0.14);
 }
 
 .profile-card h2 {
