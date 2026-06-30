@@ -84,6 +84,41 @@
         <span>Git</span>
       </div>
     </section>
+
+    <section id="ai-service" class="section">
+      <div class="section-heading">
+        <p class="eyebrow">AI Survey Service</p>
+        <h2>AI 에이전트에게 질문하기</h2>
+      </div>
+      <div class="contact-layout">
+        <div class="contact-copy">
+          <h3>궁금한 내용을 남겨주세요</h3>
+          <p>
+            이름, 이메일, 질문을 입력하면 AI 에이전트가 내용을 분석하고
+            입력한 이메일로 답변을 받을 수 있도록 설계한 설문 서비스입니다.
+          </p>
+          <div class="service-points">
+            <span>Make.com Webhook 연동</span>
+            <span>질문 접수 상태 표시</span>
+            <span>반응형 입력 폼</span>
+          </div>
+        </div>
+
+        <form id="contactForm" class="contact-form">
+          <label for="visitorName">이름</label>
+          <input type="text" id="visitorName" placeholder="이름" required>
+
+          <label for="visitorEmail">이메일</label>
+          <input type="email" id="visitorEmail" placeholder="이메일" required>
+
+          <label for="visitorMessage">질문 내용</label>
+          <textarea id="visitorMessage" placeholder="AI 에이전트에게 할 질문을 입력하세요" required></textarea>
+
+          <button class="button primary form-button" type="submit">AI 에이전트에게 질문하기</button>
+          <div id="responseMessage" class="response-message" role="status" aria-live="polite"></div>
+        </form>
+      </div>
+    </section>
   </main>
 
   <footer class="footer">
